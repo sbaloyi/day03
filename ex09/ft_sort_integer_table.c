@@ -4,7 +4,7 @@ void swap(int *a, int *b);
 
 void swap(int *a, int *b) {
 
-	int temp = a*;
+	int temp = *a;
 	*a = *b;
 	*b = temp;
 }
@@ -16,9 +16,9 @@ void ft_sort_integer_table(int *tab, int size) {
 
 	while (counter < size) {
 		counter1 = counter;
-		while (j < size) {
-			if(tab[counter] >= tab[j]) {
-				swap(&tab[i] >= tab[j]);
+		while (counter1 < size) {
+			if(tab[counter] >= tab[counter1]) {
+				swap(&tab[counter], &tab[counter1]);
 			}
 			++counter1;
 		}
