@@ -8,13 +8,13 @@ void *ft_strrev(char *str) {
 	int arrValue = 0;
 
 	if(str) {
-		while (str[size] != '\0') {
+		while (str[str_length] != '\0') {
 			str_length++;
 		}
-		while (counter < string_length / 2) {
+		while (counter < str_length / 2) {
 			arrValue = str_length - counter - 1;
-			temp = str[i];
- 			str[i] = str[arrValue];
+			temp = str[counter];
+ 			str[counter] = str[arrValue];
 			str[arrValue] = temp;
 			++counter;
 		}
