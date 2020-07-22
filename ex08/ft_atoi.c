@@ -1,5 +1,3 @@
-int ft_atoi(char *str);
-
 int ft_atoi(char *str) 
 {
 	int result = 0;
