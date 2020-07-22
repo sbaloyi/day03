@@ -1,5 +1,3 @@
-int ft_strlen(char *str);
-
 int ft_strlen(char *str) {
 	
 	int counter = 0;
