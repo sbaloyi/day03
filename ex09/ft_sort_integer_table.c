@@ -1,7 +1,3 @@
-void ft_sort_integer_table(int *tab, int size);
-
-void swap(int *a, int *b);
-
 void swap(int *a, int *b) {
 
 	int temp = *a;
@@ -25,4 +21,3 @@ void ft_sort_integer_table(int *tab, int size) {
 		++counter;
 	}
 }
-
