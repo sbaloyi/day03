@@ -1,5 +1,3 @@
-void *ft_strrev(char *str);
-
 void *ft_strrev(char *str) {
 
 	int str_length = 0;
